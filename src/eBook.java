@@ -2,7 +2,7 @@ import java.util.GregorianCalendar;
 
 public class eBook extends Medium{
 
-private String Autor;
+private Urheber autor;
 
 private String ISBN;
 
@@ -10,20 +10,20 @@ private String Seitenanzahl;
 
 private String auflage;
 
-    public eBook(String titel, String kommentar, GregorianCalendar erscheinungsdatum, Genre genre, String autor, String ISBN, String seitenanzahl, String auflage) {
+    public eBook(String titel, String kommentar, GregorianCalendar erscheinungsdatum, Genre genre, Urheber autor, String ISBN, String seitenanzahl, String auflage) {
         super(titel, kommentar, erscheinungsdatum, genre);
-        Autor = autor;
+        this.autor = autor;
         this.ISBN = ISBN;
         Seitenanzahl = seitenanzahl;
         this.auflage = auflage;
     }
 
-    public String getAutor() {
-        return Autor;
+    public Urheber getAutor() {
+        return autor;
     }
 
-    public void setAutor(String autor) {
-        Autor = autor;
+    public void setAutor(Urheber autor) {
+        this.autor = autor;
     }
 
     public String getISBN() {

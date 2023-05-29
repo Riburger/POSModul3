@@ -3,7 +3,7 @@ import java.util.GregorianCalendar;
 public class Film extends Medium{
 
 
-    private String regisseur;
+    private Urheber urheber;
 
     private String spielzeit;
 
@@ -11,20 +11,20 @@ public class Film extends Medium{
 
     private boolean HD;
 
-    public Film(String titel, String kommentar, GregorianCalendar erscheinungsdatum, Genre genre, String regisseur, String spielzeit, boolean UHD, boolean HD) {
+    public Film(String titel, String kommentar, GregorianCalendar erscheinungsdatum, Genre genre, Urheber regisseur, String spielzeit, boolean UHD, boolean HD) {
         super(titel, kommentar, erscheinungsdatum, genre);
-        this.regisseur = regisseur;
+        this.urheber = regisseur;
         this.spielzeit = spielzeit;
         this.UHD = UHD;
         this.HD = HD;
     }
 
-    public String getRegisseur() {
-        return regisseur;
+    public Urheber getUrheber() {
+        return urheber;
     }
 
-    public void setRegisseur(String regisseur) {
-        this.regisseur = regisseur;
+    public void setUrheber(Urheber urheber) {
+        this.urheber = urheber;
     }
 
     public String getSpielzeit() {
@@ -54,7 +54,7 @@ public class Film extends Medium{
 
     public void ausgeben() {
         super.ausgeben();
-        System.out.println("Film: " + getTitel() + "\nRegisseur: " + getRegisseur() + "\nSpielzeit: " + getSpielzeit() + "\nKommentar: " + getKommentar() + "\nUHD: " + isUHD() + "\nHD: " + isHD());
+        System.out.println("Film: " + getTitel() + "\nRegisseur: " + getUrheber() + "\nSpielzeit: " + getSpielzeit() + "\nKommentar: " + getKommentar() + "\nUHD: " + isUHD() + "\nHD: " + isHD());
     }
 
     @Override
