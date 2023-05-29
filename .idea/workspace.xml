@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e964ae54-6d4f-4f5b-856f-a1b541158160" name="Changes" comment="" />
+    <list default="true" id="e964ae54-6d4f-4f5b-856f-a1b541158160" name="Changes" comment="2nd Commit">
+      <change afterPath="$PROJECT_DIR$/src/Film.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Kommandozeilenmenue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Medienbibliothek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Medium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kommandozeilenmenü.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,9 +38,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/rburg/OneDrive/Desktop/IT Kolleg 22_23/Semester 2/POS1 Praxis/GIT/POSModul3/src"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rburg\OneDrive\Desktop\IT Kolleg 22_23\Semester 2\POS1 Praxis\GIT\POSModul3\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,6 +56,14 @@
       <option name="presentableId" value="Default" />
       <updated>1685357522703</updated>
     </task>
+    <task id="LOCAL-00001" summary="2nd Commit">
+      <created>1685360072696</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685360072696</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -46,5 +76,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2nd Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd Commit" />
   </component>
 </project>
