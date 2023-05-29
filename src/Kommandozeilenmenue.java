@@ -1,4 +1,7 @@
 import java.util.Scanner;
+import java.util.GregorianCalendar;
+import java.util.Calendar;
+import java.text.SimpleDateFormat;
 
 public class Kommandozeilenmenue {
 
@@ -9,9 +12,9 @@ public Kommandozeilenmenue() {
         }
 
 public void MenueAnzeigen() {
-        System.out.println("MEN�");
-        System.out.println("1) AUSGABE");
-        System.out.println("2) RECHNEN");
+        System.out.println("Willkommen in deiner persönlichen Medienbibliothek");
+        System.out.println("1) Deine Medien ausgeben.");
+        System.out.println("2) Nach einem Titel suchen");
         System.out.println("3) exit");
         }
 
@@ -40,7 +43,7 @@ default:
 
 public void ausgabe()
         {
-        System.out.println("AUSGABE");
+        System.out.println();
         }
 
 public void rechnen()

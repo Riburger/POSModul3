@@ -49,4 +49,10 @@ private String auflage;
     public void setAuflage(String auflage) {
         this.auflage = auflage;
     }
+
+    public void ausgeben() {
+        super.ausgeben(); // Aufruf der Ausgabemethode der Superklasse Medium
+        System.out.println("eBook: " + getTitel() + "\nAutor: " + getAutor() + "\nISBN: " + getISBN() + "\nSeitenanzahl: " + getSeitenanzahl() + "\nAuflage: " + getAuflage());
+    }
+
 }

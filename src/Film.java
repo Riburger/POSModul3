@@ -50,6 +50,17 @@ public class Film extends Medium{
     public void setHD(boolean HD) {
         this.HD = HD;
     }
+
+
+    public void ausgeben() {
+        super.ausgeben();
+        System.out.println("Film: " + getTitel() + "\nRegisseur: " + getRegisseur() + "\nSpielzeit: " + getSpielzeit() + "\nKommentar: " + getKommentar() + "\nUHD: " + isUHD() + "\nHD: " + isHD());
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
 
 

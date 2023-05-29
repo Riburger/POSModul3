@@ -2,25 +2,20 @@ import java.util.GregorianCalendar;
 import java.util.Calendar;
 import java.text.SimpleDateFormat;
 
-
 public class Medium {
 
     private String titel;
-
-    private String Kommentar;
-
-    private GregorianCalendar Erscheinungsdatum;
-
-    private  Genre genre;
-
+    private String kommentar;
+    private GregorianCalendar erscheinungsdatum;
+    private Genre genre;
     private SimpleDateFormat datumsformatierer;
 
     public Medium(String titel, String kommentar, GregorianCalendar erscheinungsdatum, Genre genre) {
-
         this.titel = titel;
-        Kommentar = kommentar;
-        Erscheinungsdatum = datumsformatierer(erscheinungsdatum);
+        this.kommentar = kommentar;
+        this.erscheinungsdatum = erscheinungsdatum;
         this.genre = genre;
+        this.datumsformatierer = new SimpleDateFormat("dd.MM.yyyy");
     }
 
     public String getTitel() {
@@ -32,11 +27,11 @@ public class Medium {
     }
 
     public String getKommentar() {
-        return Kommentar;
+        return kommentar;
     }
 
     public void setKommentar(String kommentar) {
-        Kommentar = kommentar;
+        this.kommentar = kommentar;
     }
 
     public Genre getGenre() {
@@ -45,5 +40,29 @@ public class Medium {
 
     public void setGenre(Genre genre) {
         this.genre = genre;
+    }
+
+    public GregorianCalendar getErscheinungsdatum() {
+        return erscheinungsdatum;
+    }
+
+    public void setErscheinungsdatum(GregorianCalendar erscheinungsdatum) {
+        this.erscheinungsdatum = erscheinungsdatum;
+    }
+
+    public void ausgeben() {
+        String formatiertesDatum = datumsformatierer.format(erscheinungsdatum.getTime());
+        System.out.println("Medium:\nTitel: " + titel + "\nKommentar: " + kommentar + "\nGenre: " + genre.getName() + " " + formatiertesDatum);
+
+    }
+
+    @Override
+    public String toString() {
+        return "Medium " +
+                "titel = " + titel + '\'' +
+                ", kommentar = " + kommentar + '\'' +
+                ", erscheinungsdatum = " +   datumsformatierer.format(erscheinungsdatum.getTime()) +
+                ", genre = " + genre.getName() +
+                ' ';
     }
 }

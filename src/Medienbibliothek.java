@@ -1,6 +1,7 @@
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.GregorianCalendar;
+import java.util.Calendar;
+import java.text.SimpleDateFormat;
 
 public class Medienbibliothek {
     private ArrayList<Medium> medienliste;
@@ -10,9 +11,14 @@ public class Medienbibliothek {
         this.medienliste = new ArrayList<>();
     }
 
+
+    public void mediumHinzufuegen(Medium medium){
+        this.medienliste.add(medium);
+    }
+
     public void alleAusgeben() {
-        for (Medium m : medienliste) {
-            System.out.println(m);
+        for (Medium m : medienliste){
+            m.ausgeben();
         }
     }
 
@@ -47,6 +53,6 @@ public class Medienbibliothek {
 
 
 
-    Medium m1 = new Medium("Stirb Langsam","Sehr guter Film", new GregorianCalendar(2017, Calendar.JUNE,23), new Genre("Horror");
+    Medium m1 = new Medium("Stirb Langsam","Sehr guter Film", new GregorianCalendar(2017, Calendar.JUNE,23), new Genre("Horror"));
 
 }

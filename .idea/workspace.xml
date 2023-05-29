@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e964ae54-6d4f-4f5b-856f-a1b541158160" name="Changes" comment="2nd Commit">
-      <change afterPath="$PROJECT_DIR$/src/Film.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kommandozeilenmenue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medienbibliothek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eBook.java" afterDir="false" />
+    <list default="true" id="e964ae54-6d4f-4f5b-856f-a1b541158160" name="Changes" comment="3rd Commit&#10;&#10;Habe nun begonnen die einzelnen Klassen zu implementieren. Mache jetzt mit der Implementierung der Medienbibliothek weiter.">
+      <change afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kommandozeilenmenü.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Film.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kommandozeilenmenue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kommandozeilenmenue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Medienbibliothek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Medienbibliothek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Medium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Medium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eBook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685360072696</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="3rd Commit&#10;&#10;Habe nun begonnen die einzelnen Klassen zu implementieren. Mache jetzt mit der Implementierung der Medienbibliothek weiter.">
+      <created>1685362519185</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685362519185</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -79,6 +85,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2nd Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="2nd Commit" />
+    <MESSAGE value="3rd Commit&#10;&#10;Habe nun begonnen die einzelnen Klassen zu implementieren. Mache jetzt mit der Implementierung der Medienbibliothek weiter." />
+    <option name="LAST_COMMIT_MESSAGE" value="3rd Commit&#10;&#10;Habe nun begonnen die einzelnen Klassen zu implementieren. Mache jetzt mit der Implementierung der Medienbibliothek weiter." />
   </component>
 </project>
